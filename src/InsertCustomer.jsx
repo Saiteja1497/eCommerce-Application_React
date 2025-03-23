@@ -16,7 +16,7 @@ class NewCustomer extends Component {
               <label className="col-lg-4">Customer Name</label>
               <div className="col-lg-8">
                 <input
-                  typr="text"
+                  type="text"
                   className="form-control"
                   value={this.state.name}
                   onChange={(event) => {
@@ -30,7 +30,7 @@ class NewCustomer extends Component {
               <label className="col-lg-4">City</label>
               <div className="col-lg-8">
                 <input
-                  typr="text"
+                  type="text"
                   className="form-control"
                   value={this.state.city}
                   onChange={(event) => {
@@ -44,7 +44,7 @@ class NewCustomer extends Component {
               <label className="col-lg-4">Phone</label>
               <div className="col-lg-8">
                 <input
-                  typr="text"
+                  type="text"
                   className="form-control"
                   value={this.state.phone}
                   onChange={(event) => {
@@ -58,7 +58,7 @@ class NewCustomer extends Component {
               <label className="col-lg-4">Photo</label>
               <div className="col-lg-8">
                 <input
-                  typr="text"
+                  type="text"
                   className="form-control"
                   value={this.state.photo}
                   onChange={(event) => {

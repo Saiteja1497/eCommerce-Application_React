@@ -13,6 +13,7 @@ import SideBar from "./SideBar";
 import ProductById from "./ProductById";
 import NewCustomer from "./InsertCustomer";
 import UpdateCustomer from "./UpdateCustomer";
+import Registration from "./Registration";
 
 export default class App extends Component {
   constructor(props) {
@@ -59,7 +60,7 @@ export default class App extends Component {
                   exact
                   component={UpdateCustomer}
                 />
-
+                <Route path="/register" exact component={Registration} />
                 <Route path="*" component={NoMatchPage} />
               </Switch>
             </div>
